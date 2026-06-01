@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Institute of Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>CIT</h1>
+                <span>Canadian Institute of Tech</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to Canadian Institute of Tech</h2>
+            <p>Empowering the next generation of tech innovators</p>
+            <button class="btn btn-primary" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Canadian Institute of Tech is dedicated to providing world-class education in technology and innovation. Our mission is to prepare students for successful careers in the rapidly evolving tech industry.</p>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🎓 Expert Instructors</h3>
+                    <p>Learn from industry professionals with years of experience</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💻 Modern Curriculum</h3>
+                    <p>Stay up-to-date with the latest technologies and frameworks</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌐 Global Community</h3>
+                    <p>Connect with students and professionals from around the world</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💼 Career Support</h3>
+                    <p>Get personalized guidance for your professional journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="program-grid">
+                <div class="program-card">
+                    <h3>Web Development</h3>
+                    <p>Master HTML, CSS, JavaScript, and popular frameworks like React and Vue</p>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>Full Stack Development</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h3>Mobile Development</h3>
+                    <p>Build native and cross-platform mobile applications</p>
+                    <ul>
+                        <li>iOS Development</li>
+                        <li>Android Development</li>
+                        <li>React Native</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h3>Data Science</h3>
+                    <p>Learn to analyze data and build predictive models</p>
+                    <ul>
+                        <li>Python & R Programming</li>
+                        <li>Machine Learning</li>
+                        <li>Data Analytics</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h3>Cloud & DevOps</h3>
+                    <p>Master cloud infrastructure and deployment strategies</p>
+                    <ul>
+                        <li>AWS & Azure</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>CI/CD Pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@canadianinstituteoftech.ca</p>
+                <p><strong>Phone:</strong> +1 (416) 555-0123</p>
+                <p><strong>Address:</strong> Toronto, Ontario, Canada</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Canadian Institute of Tech. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
